@@ -28,3 +28,4 @@ jobs:
         docker pull mysql
         docker save -o mysql.tar mysql
         ls -l
+        echo -e "Hello, Github Actions!\nAuthor: WeiyiGeek\nBlog: https://blog.weiyigeek.top" 
