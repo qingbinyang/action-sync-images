@@ -5,6 +5,6 @@ ENV MYSQL_ROOT_PASSWORD=123456
 # 设置字符集
 ENV LANG=C.UTF-8
 # 将自定义配置文件复制到镜像中
-COPY my.cnf ./mysql/my.cnf
+# COPY my.cnf ./mysql/my.cnf
 # 持久化数据卷
 VOLUME /var/lib/mysql
