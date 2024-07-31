@@ -16,10 +16,10 @@ on:
       name:
         description: 'Person to greet'
         required: true
-        default: 'World'
+        default: 'build mysql'
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: mysql
+  IMAGE_NAME: mysql:last
 # 2.添加一个job来执行同步操作。在workflow文件中，添加一个job 并指定使用的操作系统环境。
 # 工作流程任务（通常含有一个或多个步骤）
 jobs:
